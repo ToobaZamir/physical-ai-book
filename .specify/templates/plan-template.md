@@ -31,7 +31,24 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+### Core Principles
+- [ ] **Accuracy**: Technical descriptions are accurate and verifiable.
+- [ ] **Practicality**: The feature is practical for educational use.
+- [ ] **Comprehensiveness**: The feature contributes to comprehensive coverage of the subject.
+- [ ] **Innovation**: The feature aligns with the focus on embodied intelligence and humanoid interactions.
+
+### Key Standards
+- [ ] **Verifiability**: Technical claims are verifiable against official documentation.
+- [ ] **Citation**: APA or IEEE style is used for all references.
+- [ ] **Source Mix**: At least 60% of sources are from official docs, peer-reviewed papers, or industry reports.
+- [ ] **Originality**: Content is original or properly attributed, with 0% plagiarism.
+- [ ] **Clarity**: The writing is clear and accessible to the target audience (Flesch-Kincaid grade 12-14).
+
+### Constraints
+- [ ] **Structure**: The feature fits within the defined module/weekly structure.
+- [ ] **Length**: The content respects the overall page length constraints.
+- [ ] **Format**: The output is compatible with the PDF/eBook format.
+- [ ] **References**: A minimum of 20 references are included for major sections.
 
 ## Project Structure
 

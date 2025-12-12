@@ -1,55 +1,51 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: none -> 1.0.0
+- List of modified principles: none
+- Added sections: Core Principles, Key Standards, Constraints, Governance
+- Removed sections: none
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: none
+-->
+# Book on Physical AI & Humanoid Robotics: AI Systems in the Physical World. Embodied Intelligence.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy
+Accuracy in technical descriptions of robotics tools, hardware, and AI integration.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Practicality
+Practicality for educational use (targeted at students and practitioners with AI/engineering background).
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Comprehensiveness
+Comprehensiveness in covering simulated and real-world applications.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Innovation
+Innovation focus on embodied intelligence and humanoid interactions.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+- All technical claims must be verifiable against official documentation (e.g., ROS 2, NVIDIA Isaac, Gazebo).
+- Citation format: APA or IEEE style for references to tools, papers, or hardware specs.
+- Source types: Minimum 60% from official vendor docs, peer-reviewed robotics/AI papers, and industry reports.
+- Plagiarism check: 0% tolerance; all content original or properly attributed.
+- Writing clarity: Technical yet accessible, Flesch-Kincaid grade 12-14 for an engineering audience.
 
+## Constraints
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Structure: Divided into modules, weekly breakdowns, hardware sections, and assessments.
+- Length: 50-100 pages equivalent, including diagrams and code snippets.
+- Format: PDF or eBook with embedded links to resources, diagrams for hardware setups.
+- Minimum 20 references/sources for tools, hardware, and case studies.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- All hardware and software recommendations must be verified for compatibility and current availability.
+- There must be zero factual errors in technical specs or tool descriptions.
+- The content must pass a review for educational value and practical applicability.
+- The book must provide comprehensive coverage of Physical AI principles from simulation to deployment.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-12 | **Last Amended**: 2025-12-12
