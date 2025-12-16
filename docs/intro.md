@@ -1,47 +1,51 @@
+
 ---
-sidebar_position: 1
+# 🚀 Physical AI & Humanoid Robotics: The Complete Practitioner’s Book
+
+Welcome to the 2026 edition of **Physical AI & Humanoid Robotics**, a full-stack textbook guiding you from simulation to real-world humanoid applications. This book covers ROS 2, Gazebo, Unity, NVIDIA Isaac, and advanced Vision-Language-Action integration.
+
 ---
 
-# Tutorial Intro
+## 📚 Modules Overview
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Module 1: ROS 2 Mastery
+- Core architecture deep dive
+- Building production-grade humanoid packages
+- Why ROS 2 is the only serious choice in 2025
+[Explore Module 1 →](./module1/why-ros2)
 
-## Getting Started
+### Module 2: Digital Twins
+- Gazebo simulation
+- Isaac Sim 2025.2 pipeline
+- Unity Robotics & digital humans
+[Explore Module 2 →](./module2/gazebo)
 
-Get started by **creating a new site**.
+### Module 3: The AI-Robot Brain
+- Isaac ROS GEMs & perception pipelines
+- Bipedal locomotion & control
+- Full integration on real Jetson
+[Explore Module 3 →](./module3/isaac-ros-gems)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Module 4: Vision-Language-Action
+- Voice → LLM → ROS 2 actions
+- Grounding language in perception & manipulation
+- Capstone: Autonomous Apartment Humanoid
+[Explore Module 4 →](./module4/vla-planning)
 
-### What you'll need
+### Appendices
+- Hardware BOM, URDF/SDF, sim-to-real checklist
+[View Appendices →](./appendices/appendix-a)
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Capstone Project
+- Complete end-to-end project on Unitree G1
+[Go to Capstone →](./capstone/index)
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+## 🎯 Quick Links
 
-The classic template will automatically be added to your project after you run the command:
+- [PDF Download](#) (pending CI build)  
+- [ePub Version](#) (pending CI build)  
+- [GitHub Repo](https://github.com/physical-ai/book)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+---

@@ -1,0 +1,33 @@
+# Docker Ignore File
+
+# Environment
+.env*
+*.env
+
+# Git
+.git/
+.gitignore
+
+# Node modules
+node_modules/
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Logs
+*.log
+logs/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Docker specific
+Dockerfile*
+.dockerignore
