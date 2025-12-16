@@ -9,14 +9,14 @@ const config = {
 
   // ✅ favicon file tumhare folder mein hai
   favicon: 'img/favicon.ico',
+   url: 'https://toobazamir.github.io',
+   baseUrl: '/physical-ai-book/',
 
-  url: 'https://physical-ai.book',
-  baseUrl: '/',
+  organizationName: 'ToobaZamir',
+  projectName: 'physical-ai-book',
 
-  organizationName: 'physical-ai',
-  projectName: 'book',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -69,14 +69,11 @@ const config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [{ label: 'Tutorial', to: '/docs/intro' }],
-        },
+      
         {
           title: 'Community',
           items: [
-            { label: 'GitHub', href: 'https://github.com/your-repo' },
+            { label: 'GitHub', href: 'https://github.com/ToobaZamir/physical-ai-book' },
           ],
         },
       ],

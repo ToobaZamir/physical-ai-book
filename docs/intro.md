@@ -38,7 +38,8 @@ Welcome to the 2026 edition of **Physical AI & Humanoid Robotics**, a full-stack
 
 ### Capstone Project
 - Complete end-to-end project on Unitree G1
-[Go to Capstone →](./capstone/index)
+[Go to Capstone →](./capstone)
+
 
 ---
 
@@ -46,6 +47,7 @@ Welcome to the 2026 edition of **Physical AI & Humanoid Robotics**, a full-stack
 
 - [PDF Download](#) (pending CI build)  
 - [ePub Version](#) (pending CI build)  
-- [GitHub Repo](https://github.com/physical-ai/book)
+- [GitHub Repo](https://github.com/ToobaZamir/physical-ai-book)
+
 
 ---
