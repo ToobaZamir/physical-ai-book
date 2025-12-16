@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Perception Dashboard</title>
+    <style>
+        body { font-family: sans-serif; }
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .feed {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 45%;
+        }
+        .feed h2 {
+            margin-top: 0;
+        }
+        .feed canvas {
+            width: 100%;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Perception Dashboard</h1>
+    <div class="dashboard">
+        <div class="feed" id="humanoid1">
+            <h2>Humanoid 1</h2>
+            <canvas id="canvas1" width="640" height="480"></canvas>
+            <div class="info"></div>
+        </div>
+        <div class="feed" id="humanoid2">
+            <h2>Humanoid 2</h2>
+            <canvas id="canvas2" width="640" height="480"></canvas>
+            <div class="info"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

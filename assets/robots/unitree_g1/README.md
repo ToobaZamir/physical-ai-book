@@ -1,0 +1,1 @@
+This directory should contain the USD, SDF, and URDF files for the Unitree G1 robot.
