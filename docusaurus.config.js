@@ -6,15 +6,13 @@ const config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline:
     'A complete practitioner’s guide to ROS 2, Digital Twins, and Vision-Language-Action systems',
-
-  // ✅ favicon file tumhare folder mein hai
   favicon: 'img/favicon.ico',
-   url: 'https://toobazamir.github.io',
-   baseUrl: '/physical-ai-book/',
+
+  url: 'https://toobazamir.github.io',
+  baseUrl: '/physical-ai-book/',
 
   organizationName: 'ToobaZamir',
   projectName: 'physical-ai-book',
-
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -42,13 +40,12 @@ const config = {
 
   themeConfig: {
     image: 'img/social-card.png',
-
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
     },
 
-    // ✅ NAVBAR SAHI JAGAH PAR
+    // ✅ NAVBAR with RAG Chat link
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
@@ -57,19 +54,14 @@ const config = {
         height: 40,
       },
       items: [
-        {
-          to: '/docs/intro',
-          label: 'Docs',
-          position: 'left',
-        },
+        { to: '/docs/intro', label: 'Docs', position: 'left' },
+        { href: 'http://127.0.0.1:8000/docs', label: 'RAG Chat', position: 'left' },
       ],
     },
 
-    // ✅ FOOTER
     footer: {
       style: 'dark',
       links: [
-      
         {
           title: 'Community',
           items: [
@@ -80,7 +72,6 @@ const config = {
       copyright: `© ${new Date().getFullYear()} Tooba Zamir — Physical AI & Humanoid Robotics.`,
     },
 
-    // ✅ PRISM
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
