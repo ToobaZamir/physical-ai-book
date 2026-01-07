@@ -8,7 +8,7 @@ const config = {
     'A complete practitioner’s guide to ROS 2, Digital Twins, and Vision-Language-Action systems',
   favicon: 'img/favicon.ico',
 
-  url: 'https://toobazamir.github.io',
+  url: http:'localhost:3000/physical-ai-book',
   baseUrl: '/physical-ai-book/',
 
   organizationName: 'ToobaZamir',
